@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publications | BIX Lab · Hannam University</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow">Publications</div>
+      <h1>Publications</h1>
+      <p>Journal papers, conference presentations, books, and reports.</p>
+    </div>
+  </div>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="chips">
+        <a href="#intl">International Journals</a>
+        <a href="#kr">Korean Journals</a>
+        <a href="#conf-intl">International Conferences</a>
+        <a href="#conf-kr">Domestic Conferences</a>
+        <a href="#books">Books, Reports &amp; Patents</a>
+      </div>
+
+      <div class="pub-section" id="intl">
+        <h2>International Journal Papers <small>SSCI · SCIE · Scopus</small></h2>
+        <ul class="pub-list" id="list-intl"></ul>
+      </div>
+      <div class="pub-section" id="kr">
+        <h2>Korean Journal Papers <small>KCI</small></h2>
+        <ul class="pub-list" id="list-kr"></ul>
+      </div>
+      <div class="pub-section" id="conf-intl">
+        <h2>International Conferences</h2>
+        <ul class="pub-list" id="list-conf-intl"></ul>
+      </div>
+      <div class="pub-section" id="conf-kr">
+        <h2>Domestic Conferences</h2>
+        <ul class="pub-list" id="list-conf-kr"></ul>
+      </div>
+      <div class="pub-section" id="books">
+        <h2>Books, Reports &amp; Patents</h2>
+        <ul class="pub-list" id="list-books"></ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<script src="assets/data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+  renderPubs("list-intl", PUBS_INTL);
+  renderPubs("list-kr", PUBS_KR);
+  renderPubs("list-conf-intl", CONF_INTL);
+  renderPubs("list-conf-kr", CONF_KR);
+  renderPubs("list-books", BOOKS);
+</script>
+</body>
+</html>

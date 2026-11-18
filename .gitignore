@@ -1,0 +1,6 @@
+# 로컬 미리보기 설정 (사이트에는 필요 없음)
+.claude/
+
+# Windows 시스템 파일
+Thumbs.db
+desktop.ini
