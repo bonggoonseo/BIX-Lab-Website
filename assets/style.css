@@ -179,6 +179,7 @@ a.card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(21,24,4
 .pub-list li:first-child { border-top: 1px solid var(--line); }
 .pub-title { font-weight: 650; font-size: 16.5px; line-height: 1.45; }
 .pub-authors { color: var(--muted); font-size: 14.5px; margin-top: 4px; }
+.pub-authors .me { color: var(--text); font-weight: 700; }
 .pub-venue { font-size: 14.5px; margin-top: 2px; font-style: italic; color: #3c4060; }
 .pub-venue .idx {
   font-style: normal; font-size: 11px; font-weight: 800; letter-spacing: 0.06em;
