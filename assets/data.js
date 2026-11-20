@@ -3,7 +3,6 @@
    새 항목은 각 목록의 맨 위에 추가하세요. */
 
 const NEWS = [
-  { date: "2027.03", tag: "LAB", text: "BIX Lab is preparing to open with a pilot program in the 2027 academic year at the Department of Management Information Systems, Hannam University." },
   { date: "2026.11", tag: "PATENT", text: "Filed a Korean patent application (10-2026-0233733) on a system and method for calculating personalized meal size and food-group intake ratios based on appetite patterns across the GLP-1 medication dosing cycle." },
   { date: "2026.11", tag: "CONFERENCE", text: "Presented a study on regional differences in the use of non-face-to-face public financial services from a digital inclusion perspective at 한국빅데이터학회." },
   { date: "2026.09", tag: "PAPER", text: "New paper in 정보관리학회지 (KCI): 연구데이터 공유의 의도-행동 격차와 국가연구데이터법 적용 범위 인식." },

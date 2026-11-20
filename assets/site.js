@@ -34,7 +34,7 @@
   if (footer) {
     footer.className = "site-footer";
     footer.innerHTML =
-      '<div class="wrap"><div><strong>BIX Lab</strong> · Behavior · Insight · eXperience<br>' +
+      '<div class="wrap"><div><strong>BIX Lab</strong> · Behavior · Intelligence · eXperience<br>' +
       "Department of Management Information Systems, Hannam University<br>" +
       "Room 312, College of Business and Economics (경상대학 312호)<br>" +
       "70 Hannam-ro, Daedeok-gu, Daejeon 34430, Korea</div>" +
