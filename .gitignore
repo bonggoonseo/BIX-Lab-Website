@@ -1,6 +1,9 @@
 # 로컬 미리보기 설정 (사이트에는 필요 없음)
 .claude/
 
+# 원본 사진 (사이트에는 줄인 assets/professor.jpg만 올림)
+assets/KakaoTalk_*
+
 # Windows 시스템 파일
 Thumbs.db
 desktop.ini

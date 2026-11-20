@@ -18,7 +18,7 @@ const PUBS_INTL = [
   { t: "Evaluating employee performance in smart work environment with focus on psychological distance and process versus outcome-centric approaches", a: "Seo, B. G., & Park, D. H. (2025)", v: "Scientific Reports, 15(1), 9089", idx: "SCIE", url: "https://doi.org/10.1038/s41598-025-94254-0", sel: true },
   { t: "The co-evolution of AI technology and information environment: Diagnosing social impacts and exploring governance strategies", a: "Cha, S., Seo, B. G., Kim, T., & Kim, J. (2024)", v: "Journal of Infrastructure, Policy and Development, 8(8), 6605", idx: "Scopus", url: "https://doi.org/10.24294/jipd.v8i8.6605", sel: true },
   { t: "The impact of budget allocation by research service and platform providers on R&D outcomes: Reassessing the value of investment in research infrastructure in a knowledge-based society", a: "Cha, S., Seo, B. G., Kim, T., & Kim, J. (2024)", v: "Journal of Infrastructure, Policy and Development, 8(8), 6924", idx: "Scopus", url: "https://doi.org/10.24294/jipd.v8i8.6924" },
-  { t: "The effective recommendation approaches depending on user’s psychological ownership in online content service: user-centric versus content-centric recommendations", a: "Seo, B. G., & Park, D. H. (2024)", v: "Behaviour & Information Technology, 1–13", idx: "SSCI", url: "https://doi.org/10.1080/0144929X.2022.2161414", sel: true },
+  { t: "The effective recommendation approaches depending on user’s psychological ownership in online content service: user-centric versus content-centric recommendations", a: "Seo, B. G., & Park, D. H. (2024)", v: "Behaviour & Information Technology, 43(2)", idx: "SSCI", url: "https://doi.org/10.1080/0144929X.2022.2161414", sel: true },
   { t: "Effective strategies for contents recommendation based on psychological ownership of over the top services in cyberspace", a: "Seo, B. G., & Park, D. H. (2021)", v: "Journal of Theoretical and Applied Electronic Commerce Research, 16(4), 976–991", idx: "SSCI", url: "https://doi.org/10.3390/jtaer16040055" },
   { t: "The effective type of information categorization in online curation service depending on psychological ownership", a: "Seo, B. G., & Park, D. H. (2020)", v: "Sustainability, 12(8), 3321", idx: "SSCI", url: "https://doi.org/10.3390/su12083321" },
   { t: "Did You Invest Less Than Me? The Effect of Other’s Share of Investment on Psychological Ownership of Crowdfunding Projects", a: "Seo, B. G., & Park, D. H. (2020)", v: "Sustainability, 12(5), 2025", idx: "SSCI", url: "https://doi.org/10.3390/su12052025" },
@@ -45,6 +45,8 @@ const PUBS_KR = [
   { t: "기술가치 평가를 위한 기술사업화 기간 및 비용 추정체계 개발", a: "전승표, 최대헌, 박현우, 서봉군, & 박도형 (2017)", v: "지능정보연구, 23(2), 139–160" },
   { t: "중소기업 기술 유출에 대한 조기경보시스템 개발에 대한 연구", a: "서봉군, & 박도형 (2017)", v: "지능정보연구, 23(1), 143–159" }
 ];
+// 국내 학술지는 모두 KCI 등재 (다른 등급이 있으면 해당 논문에 idx: "..." 를 적으면 됨)
+PUBS_KR.forEach(p => { p.idx = p.idx || "KCI"; });
 
 const CONF_INTL = [
   { t: "What sentiment attracts tourists? Analysis of tourist attractions based on consumer's sentiment", a: "Yoo, I. J., Seo, B. G., & Park, D. H. (2019)", v: "PACIS 2019, p. 145", url: "https://aisel.aisnet.org/pacis2019/145/" },

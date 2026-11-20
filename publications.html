@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Publications | BIX Lab · Hannam University</title>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=20261120">
 </head>
 <body>
 <header id="site-header"></header>
@@ -53,14 +53,15 @@
 </main>
 
 <footer id="site-footer"></footer>
-<script src="assets/data.js"></script>
-<script src="assets/site.js"></script>
+<script src="assets/data.js?v=20261120"></script>
+<script src="assets/site.js?v=20261120"></script>
 <script>
-  renderPubs("list-intl", PUBS_INTL);
-  renderPubs("list-kr", PUBS_KR);
-  renderPubs("list-conf-intl", CONF_INTL);
-  renderPubs("list-conf-kr", CONF_KR);
-  renderPubs("list-books", BOOKS);
+  // 학술지 번호는 국내 [1]부터 시작해 국제 논문까지 이어서 매김
+  renderPubs("list-intl", PUBS_INTL, PUBS_KR.length);
+  renderPubs("list-kr", PUBS_KR, true);
+  renderPubs("list-conf-intl", CONF_INTL, true);
+  renderPubs("list-conf-kr", CONF_KR, true);
+  renderPubs("list-books", BOOKS, true);
 </script>
 </body>
 </html>
