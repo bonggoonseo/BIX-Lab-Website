@@ -6,7 +6,7 @@
     ["members.html", "Members"],
     ["publications.html", "Publications"],
     ["news.html", "News"],
-    ["daily.html", "Daily Paper"],
+    // ["daily.html", "Daily Paper"],  // 잠시 닫아 둠 — 다시 열려면 맨 앞 // 를 지우면 됨
     ["contact.html", "Contact"]
   ];
   const here = (location.pathname.split("/").pop() || "index.html").toLowerCase();

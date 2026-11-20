@@ -3,12 +3,14 @@
    새 항목은 각 목록의 맨 위에 추가하세요. */
 
 const NEWS = [
-  { date: "2027", tag: "LAB", text: "BIX Lab is preparing to open with a pilot program in the 2027 academic year at the Department of Management Information Systems, Hannam University." },
+  { date: "2027.03", tag: "LAB", text: "BIX Lab is preparing to open with a pilot program in the 2027 academic year at the Department of Management Information Systems, Hannam University." },
+  { date: "2026.11", tag: "PATENT", text: "Filed a Korean patent application (10-2026-0233733) on a system and method for calculating personalized meal size and food-group intake ratios based on appetite patterns across the GLP-1 medication dosing cycle." },
+  { date: "2026.11", tag: "CONFERENCE", text: "Presented a study on regional differences in the use of non-face-to-face public financial services from a digital inclusion perspective at 한국빅데이터학회." },
+  { date: "2026.09", tag: "PAPER", text: "New paper in 정보관리학회지 (KCI): 연구데이터 공유의 의도-행동 격차와 국가연구데이터법 적용 범위 인식." },
   { date: "2026.05", tag: "AWARD", text: "Excellent Paper Award at the Korea Credit Guarantee Fund (KODIT) 50th Anniversary Paper Competition (신용보증기금 창립 50주년 기념 논문 공모전 우수논문상)." },
-  { date: "2026", tag: "PAPER", text: "New paper in Journal of Electronic Commerce Research (SSCI): Color Strategy in E-Commerce — Leveraging Regulatory Focus for Optimized Product Page Design." },
-  { date: "2026", tag: "PAPER", text: "New paper in 정보관리학회지 (KCI): 연구데이터 공유의 의도-행동 격차와 국가연구데이터법 적용 범위 인식." },
-  { date: "2026", tag: "CONFERENCE", text: "Presented studies on digital inclusion in non-face-to-face public financial services (한국빅데이터학회) and digital remittance app adoption among migrant workers in Korea (한국IT서비스학회)." },
+  { date: "2026.05", tag: "CONFERENCE", text: "Presented a study on digital remittance app adoption among migrant workers in Korea at 한국IT서비스학회." },
   { date: "2026.03", tag: "LAB", text: "Prof. Bong-Goon Seo joins the Department of Management Information Systems, Hannam University, as Assistant Professor." },
+  { date: "2026.02", tag: "PAPER", text: "New paper in Journal of Electronic Commerce Research (SSCI): Color Strategy in E-Commerce — Leveraging Regulatory Focus for Optimized Product Page Design." },
   { date: "2025.01", tag: "AWARD", text: "Minister of Science and ICT Commendation for contributions to science and technology innovation — S&T policy (과학기술정보통신부 장관 표창)." }
 ];
 
@@ -67,8 +69,9 @@ const CONF_KR = [
 ];
 
 const BOOKS = [
+  { t: "GLP-1 계열 약물의 투여 주기 내 경과 시점별 식욕 패턴에 기반한 개인 맞춤형 식사량 및 식품별 섭취 비율 산출 시스템 및 방법", a: "Patent application · 서봉군, 이진욱, 조가람, 조현민 · 출원번호 10-2026-0233733 (2026.11)", v: "출원인: 한남대학교 산학협력단" },
   { t: "중국 학술적 성과의 영향력 변화: 헤게모니와 효율성을 중심으로", a: "Report · 공저 (2025.01)", v: "KISTI Data Insight 제42호", url: "https://www.kisti.re.kr/post/data-insight/6621" },
   { t: "설득력 있는 UX 설계를 위한 사회과학의 가르침 Vol. 2", a: "Book · 공저 (2021.03)", v: "퍼플", url: "https://product.kyobobook.co.kr/detail/S000060615777" },
   { t: "설득력 있는 UX 설계를 위한 사회과학의 가르침 Vol. 1", a: "Book · 공저 (2019.08)", v: "퍼플", url: "https://product.kyobobook.co.kr/detail/S000060609261" },
-  { t: "개인 맞춤형 화장품 정보 제공 시스템 및 방법", a: "Patent application · 출원번호 10-2018-0154156 (2018.12)", v: "출원인: (주)비즈인원" }
+  { t: "개인 맞춤형 화장품 정보 제공 시스템 및 방법", a: "Registered patent · 등록번호 10-2196299 (2020.12) · 출원번호 10-2018-0154156 (2018.12)", v: "특허권자: (주)비즈인원", url: "https://patents.google.com/patent/KR102196299B1/ko" }
 ];
