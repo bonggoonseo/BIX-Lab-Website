@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- BIX Lab 로고 (Woven X): 남색 두 획 + 코랄 대각선 -->
+  <g stroke-linecap="round" stroke-width="17" fill="none">
+    <path d="M16 16 L33 33 M67 67 L84 84" stroke="#15182e"/>
+    <path d="M18 82 L82 18" stroke="#ff7a59"/>
+  </g>
+</svg>

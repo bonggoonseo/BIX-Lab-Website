@@ -11,14 +11,21 @@
   ];
   const here = (location.pathname.split("/").pop() || "index.html").toLowerCase();
 
+  // 로고 (Woven X) — 남색 획은 글자색을 따라가서 어두운 바탕에서는 흰색이 됨
+  const LOGO =
+    '<svg class="logo" viewBox="0 0 100 100" aria-hidden="true"><g stroke-linecap="round" stroke-width="17" fill="none">' +
+    '<path d="M16 16 L33 33 M67 67 L84 84" stroke="currentColor"/>' +
+    '<path d="M18 82 L82 18" stroke="#ff7a59"/></g></svg>';
+  const WORD = 'BI<span class="x">X</span> Lab';
+
   const header = document.getElementById("site-header");
   if (header) {
     header.className = "site-header";
     header.innerHTML =
       '<div class="wrap">' +
       '<a class="brand" href="index.html">' +
-      '<span class="brand-mark">BI<span>X</span></span>' +
-      '<span class="brand-text"><strong>BIX Lab</strong><small>Hannam University</small></span></a>' +
+      LOGO +
+      '<span class="brand-text"><strong>' + WORD + '</strong><small>Hannam University</small></span></a>' +
       '<button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>' +
       '<nav class="nav">' +
       NAV.map(([href, label]) =>
@@ -34,7 +41,8 @@
   if (footer) {
     footer.className = "site-footer";
     footer.innerHTML =
-      '<div class="wrap"><div><strong>BIX Lab</strong> · Behavior · Intelligence · eXperience<br>' +
+      '<div class="wrap"><div><div class="foot-brand">' + LOGO + '<strong>' + WORD + '</strong></div>' +
+      '지능형 사용자경험 연구실 · Behavior · Intelligence · eXperience<br>' +
       "Department of Management Information Systems, Hannam University<br>" +
       "Room 312, College of Business and Economics (경상대학 312호)<br>" +
       "70 Hannam-ro, Daedeok-gu, Daejeon 34430, Korea</div>" +
