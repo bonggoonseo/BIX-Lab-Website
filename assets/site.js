@@ -16,7 +16,13 @@
     '<svg class="logo" viewBox="0 0 100 100" aria-hidden="true"><g stroke-linecap="round" stroke-width="17" fill="none">' +
     '<path d="M16 16 L33 33 M67 67 L84 84" stroke="currentColor"/>' +
     '<path d="M18 82 L82 18" stroke="#ff7a59"/></g></svg>';
-  const WORD = 'BI<span class="x">X</span> Lab';
+  // 글자 X도 로고처럼 엮인 모양: "/" 획은 이어지고 "\" 획은 교차점에서 끊김
+  const XGLYPH =
+    '<svg class="xg" viewBox="0 0 60 72" aria-hidden="true">' +
+    '<polygon points="0,72 16,72 60,0 44,0"/>' +
+    '<polygon points="0,0 16,0 27,18 11,18"/>' +
+    '<polygon points="33,54 49,54 60,72 44,72"/></svg>';
+  const WORD = 'BI<span class="x" role="img" aria-label="X">' + XGLYPH + '</span> Lab';
 
   const header = document.getElementById("site-header");
   if (header) {

@@ -377,3 +377,6 @@ tr:last-child td { border-bottom: 0; }
   .logo-hot { animation: none; opacity: 1; }
   .logo-hot::after { animation: none; }
 }
+
+/* 워드마크의 X (엮인 모양) */
+.xg { display: inline-block; height: 0.72em; width: auto; vertical-align: baseline; margin: 0 0.03em 0 0.02em; fill: var(--accent); }
