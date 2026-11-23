@@ -18,10 +18,10 @@
     '<path d="M18 82 L82 18" stroke="#ff7a59"/></g></svg>';
   // 글자 X도 로고처럼 엮인 모양: "/" 획은 이어지고 "\" 획은 교차점에서 끊김
   const XGLYPH =
-    '<svg class="xg" viewBox="0 0 60 72" aria-hidden="true">' +
-    '<polygon points="0,72 16,72 60,0 44,0"/>' +
-    '<polygon points="0,0 16,0 27,18 11,18"/>' +
-    '<polygon points="33,54 49,54 60,72 44,72"/></svg>';
+    '<svg class="xg" viewBox="0 0 70 72" aria-hidden="true">' +
+    '<polygon points="0,72 20,72 70,0 50,0"/>' +
+    '<polygon points="0,0 20,0 33,18.72 23,33.12"/>' +
+    '<polygon points="47,38.88 70,72 50,72 37,53.28"/></svg>';
   const WORD = 'BI<span class="x" role="img" aria-label="X">' + XGLYPH + '</span> Lab';
 
   const header = document.getElementById("site-header");
